@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Just a Normal Page</title>
+  <style>
+    body {
+      background-color: rgb(255, 255, 255);
+      color: #333333;
+      font-family: sans-serif;
+      padding: 50px;
+    }
+    .secret {
+      color: rgb(255, 255, 255);
+      user-select: all;
+    }
+    .secret::selection {
+      background: rgb(255, 0, 0);
+      color: rgb(255, 255, 255);
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my website!</h1>
+  <p>Nothing out of the ordinary here.</p>
+
+  <!-- 
+    Hey, if you're inspecting this code, you found my secret:
+    You are my favorite notification, my favorite distraction, 
+    and honestly, I Love You the Most. 
+  -->
+  <p class="secret">Okay, you caught me. You're my favorite person. &hearts;</p>
+</body>
+</html>
